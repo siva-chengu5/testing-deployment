@@ -1,7 +1,7 @@
 {
   "name": "heroku-deployment-test",
   "version": "1.0.0",
-  "description": "A simple Node.js app to test Heroku deployment",
+  "description": "A simple Node.js app to test Heroku deployment with MongoDB",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,10 +10,9 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.7.0"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {},
-  "keywords": []
+  "license": "ISC"
 }
